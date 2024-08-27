@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique e Juliano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Courgette', cursive;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #67a9ec, #256170); /* Altere essas cores conforme o time */
+        }
+        header {
+            background-color: #0675e4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        img {
+            float: left;
+            margin-right: 20px;
+            opacity: 0.8; /* Ajuste de transparência */
+        }
+
+        footer {
+            background-color: #0077ed;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Pseudo-elemento */
+        section::before {
+            content: "🎼";
+            font-size: 30px;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Artista Favorito: Henrique e juliano</h1>
+    </header>
+
+    <main>
+        <section>
+            <img src="data:image/jpeg;base64,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" alt="Imagem do Artista" width="200">
+            <p>Henrique & Juliano é uma dupla sertaneja formada pelos irmãos Ricelly Henrique Tavares Reis e Edson Alves dos Reis Junior, ambos nascidos na cidade de Palmeirópolis no interior do estado do Tocantins.</p>
+        </section>
+
+        <section>
+            <h2>Localização</h2>
+            <!-- Incorporação do Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8064475.584435025!2d-53.52340583827458!3d-9.26820429805649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9323501f52b13997%3A0xe3d4866245cc396c!2sTocantins!5e0!3m2!1spt-BR!2sbr!4v1723632439874!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section>
+            <h2>musica deles </h2>
+            <!-- Incorporação do vídeo do YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X8jD3F9PI7Q?si=wKFdM3IMobbDfE9d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
